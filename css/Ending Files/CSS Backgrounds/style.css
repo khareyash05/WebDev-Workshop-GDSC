@@ -1,0 +1,27 @@
+.main{
+    width: 400px;
+    height: 400px;
+    /* Getting an image as a background */
+    background-image: url('./image.jpg');
+    /* background-repeat properties */
+    background-repeat: no-repeat;
+    /* repeat-x will repeat the background horizontally and the repeat-y will repeat the bakground vertically */
+    /* Fix the background to one position */
+    background-attachment: fixed;
+  }
+  .main2{
+    width: 400px;
+    height: 400px;
+    background-image: url("https://picsum.photos/200/300");
+    /* Repeat background in horizontal direction */
+    background-repeat: repeat-x;
+    /* Allow the background to be scrolled */
+    background-attachment: scroll;
+  }
+  .main3{
+    width: 400px;
+    height: 400px;
+    background-image: url("https://picsum.photos/200/300");
+    /* Repeat background in vertical direction */
+    background-repeat: repeat-y;
+  }

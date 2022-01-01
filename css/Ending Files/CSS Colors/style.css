@@ -1,0 +1,17 @@
+/*background color*/
+#main{
+    background-color: aqua;
+    color: Red;
+}
+/* intensity between 0 and 255 */
+#main1{
+    color: rgba(255, 71, 60, 0.5);
+}
+/* rrggbb ff set to maximum value */
+#main2{
+    color: #ff6347;
+}
+/* hue, saturation and lightness with opacity */
+#main3{
+    color: hsla(9, 100%, 64%, 1);
+}

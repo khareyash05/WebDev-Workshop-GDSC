@@ -1,0 +1,29 @@
+.text{
+    color: crimson;
+    /* text-align aligns the text inside  */
+    text-align: center;
+    /* text-decoration adds certain features as underline to the text */
+    /* none is it's default value*/
+    text-decoration: none;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+    /* transform property converts text to uppercase or lowercase */
+    text-transform: uppercase;
+}
+h2{
+    text-decoration: overline;
+    /* text is aligned to right */
+    text-align: right;
+    text-transform: lowercase;
+}
+h3{
+    text-decoration: line-through;
+    /* text is aligned to left */
+    text-align: left;
+}
+p{
+    /* First letter gets capitalized */
+    text-transform: capitalize;
+}

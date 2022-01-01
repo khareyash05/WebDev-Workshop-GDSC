@@ -1,0 +1,11 @@
+.box{
+    /* width and height gives the dimensions of element */
+    width: 200px;
+    height: 200px;
+    background-color: rgb(133, 62, 184);
+    /* margin property gives the outer spacing around an element */
+    margin: 20px;
+    /* Padding is the property between element border and content */
+    padding: 20px;
+    border: 4px solid black;
+}

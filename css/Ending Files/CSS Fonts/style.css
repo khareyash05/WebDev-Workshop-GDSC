@@ -1,0 +1,18 @@
+.font{
+    /* font-family specifies the fonts to be used */
+    font-family: 'Times New Roman', Times, serif;
+    /* font-weight determines the boldness of font maybe bolder or lighter*/
+    font-weight: bold;
+    /* font-style determines style of the font */
+    font-style: italic;
+    /* font-size determines size of font */
+    font-size: 40px;
+}
+.font1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: oblique;
+}
+.font2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
