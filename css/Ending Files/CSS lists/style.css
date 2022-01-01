@@ -1,0 +1,12 @@
+/* List style type styles the list icons */
+ul li{
+    list-style-type: circle;
+}
+ol li{
+    list-style-type: upper-roman;
+}
+.list{
+    /* list-style-image allows us to set image as list icons */
+    list-style-image: url('https://picsum.photos/10/10');
+    
+}

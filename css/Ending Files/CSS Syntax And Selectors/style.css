@@ -1,0 +1,20 @@
+/*Universal Selector*/
+*{
+    color: teal;
+}
+/* Element Selector */
+p{
+    color: brown;
+}
+/* Grouping Selector */
+.main,.main1{
+    color: blue;
+}
+/* Classes Selector */
+.main2{
+    color: green;
+}
+/* ID Selector */
+#heading{
+    color: red;
+}
