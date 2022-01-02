@@ -1,0 +1,23 @@
+h1{
+    border: 2px solid brown;
+    /* inline property of display sets width of element equal to the necessary width */
+    display: inline;
+}
+span{
+    /* block property sets display to block and element will take full width available*/
+    display: block;
+    border: 2px solid blue;
+}
+.display, .display1, .display2{
+    /* Inline block gets the elements in inline  */
+    display: inline-block;
+    border: 2px solid black;
+}
+.display3{
+    /* It is another way of removing element from displaying but it does not leave the space*/
+    visibility: hidden;
+}
+.display4{
+    /* Display none removes element from the document */
+    display: none;
+}

@@ -1,0 +1,19 @@
+.box{
+    /* It is fixed unit of length in CSS */
+    font-size: 30px;
+}
+.box1{
+    /* It inherits size from the nearest element and that is eequal to 1 em*/
+    font-size: 2em;
+}
+.box2{
+    /* 1 rem is the size of the html root element */
+    font-size: 2rem;
+}
+.box3{
+    /* vw is viewport width and viewport is the size of browser's window */
+    width: 30vw;
+    /* vh is viewport height and viewport is the size of browser's window */
+    height: 30vh;
+    background-color: brown;
+}
