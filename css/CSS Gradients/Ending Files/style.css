@@ -1,0 +1,55 @@
+.gradient1,
+.gradient2,
+.gradient3,
+.gradient4,
+.gradient5,
+.gradient6,
+.gradient7,
+.gradient8 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  margin: 10px;
+}
+/* Linear Gradients*/
+.gradient1 {
+  /*linear-gradient(direction, color-stop1, color-stop2, ...); */
+  background-image: linear-gradient(red, yellow);
+}
+.gradient2 {
+  /* Here, we will see position specifying where top to bottom is the default */
+  /* direction is written by specifying in which direction first color will change into second*/
+  background-image: linear-gradient(to left, red, yellow);
+}
+.gradient3 {
+  /* We can specify angles also*/
+  background-image: linear-gradient(30deg, red, yellow);
+}
+/* Radial Gradients  */
+.gradient4 {
+  /* background-image: radial-gradient(shape size at position, start-color, ..., last-color); */
+  background-image: radial-gradient(red, yellow);
+}
+.gradient5 {
+  width: 200px;
+  /* We can also specify the space taken by a color*/
+  background-image: radial-gradient(red 20%, yellow 50%);
+}
+.gradient6 {
+  width: 200px;
+  /* We can also specify shape to be a circle or ellipse and ellipse is default*/
+  background-image: radial-gradient(circle, red 20%, yellow 50%);
+}
+/* Conic Gradients */
+.gradient6 {
+  /* background-image: conic-gradient([from angle] [at position,] color [degree], color [degree], ...); */
+  background-image: conic-gradient(yellow, green, blue);
+}
+.gradient7 {
+  /* We can specify the Angle by a color */
+  background-image: conic-gradient(yellow 90deg, green 180deg, blue);
+}
+.gradient8 {
+  /* We can specify the starting Angle*/
+  background-image: conic-gradient(from 180deg, yellow, green, blue);
+}

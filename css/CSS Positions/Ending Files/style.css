@@ -1,0 +1,36 @@
+.sticky, .fixed, .static, .relative{
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+}
+.static{
+    /* It is the default position used and the element is positioned normally*/
+    position: static;
+}
+.absolute{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(8, 8, 8);
+    /* Position absolute makes the div position in respect to its parent element and if there is no parent element, body is the parent element */
+    position: absolute;
+    /* Now, Here we guide it where to remain by specifying the top, bottom, left and right  */
+    right: 0px;
+}
+.relative{
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    /* It is positioned relatively or with respect to its original position */
+    position: relative;
+}
+.fixed{
+    /* Fixed position fixes an element and it stays wherever it is */
+    position: fixed;
+    top:0;
+    right: 0;
+}
+.sticky{
+    /* sticky position fixes an element when page is scrolled behind a limit*/
+    position: sticky;
+    top:0;
+}
