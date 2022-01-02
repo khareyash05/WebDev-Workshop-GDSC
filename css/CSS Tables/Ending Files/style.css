@@ -1,0 +1,16 @@
+table,
+th,
+td {
+    /* Border property gives border around elements so we get borders in table*/
+  border: 1px solid black;
+}
+
+table{
+    /* If you want to merge 2 borders into one, use border collapse */
+border-collapse: collapse;
+/* Defines the height and width of the table */
+width: 300px;
+height: 150px;
+/* Text-align can be used to align the text inside the table */
+text-align: center;
+}
