@@ -1,0 +1,26 @@
+/* Overflow property is the property used to control the content flowing outside the element*/
+.overflow, .overflow1, .overflow2, .overflow3{
+    width: 200px;
+    height: 250px;
+    background-color: grey;
+    margin: 60px;
+}
+.overflow{
+    /* Overflow hidden hides the extra content flowing out of the element */
+    overflow: hidden;
+}
+.overflow1{
+    /* Overflow scroll scrolls the extra content flowing out of the element */
+    overflow: scroll;
+}
+.overflow2{
+    /* Overflow auto scrolls the extra content flowing out of the element when needed */
+    overflow: auto;
+}
+.overflow3{
+    /* Overflow x or overflow y controls the extra content flowing out of the element in a particular direction*/
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+ 

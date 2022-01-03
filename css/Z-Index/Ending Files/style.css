@@ -1,0 +1,22 @@
+.Blue{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    position: absolute;
+    /* In order to specify if two elements overlap, we use z index property which assigns priority to the elements used and the one with more value of z index is given more priority */
+    z-index: 1;
+}
+.Red{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+}
+.Green{
+    width: 500px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    z-index: 0;
+}

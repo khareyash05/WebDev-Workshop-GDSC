@@ -5,7 +5,16 @@
     background-color: rgb(133, 62, 184);
     /* margin property gives the outer spacing around an element */
     margin: 20px;
+    /* margin can be given as margin: a px, b px; 
+    where, a px will be top and bottom margin and b px will be right and left*/
+    /* Margin can also be given as 
+    margin: a px, b px, c px, d px;
+    where a px will be top margin
+    b px will be right margin
+    c px will be bottom margin 
+    d px will be left margin*/
     /* Padding is the property between element border and content */
     padding: 20px;
+    /* Padding can also be defined in the same ways as the margin */
     border: 4px solid black;
 }
