@@ -1,0 +1,19 @@
+.float, .float1{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.float img, .float1 img{
+    width: 70px;
+    height: 70px;
+}
+/* Float property is used for positioning a content */
+.float img{
+    /* float right will shift image to right */
+    float: right;
+}
+.float1 img{
+    /* float left will shift image to the left */
+    float: left;
+}
