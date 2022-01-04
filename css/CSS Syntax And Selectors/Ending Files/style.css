@@ -1,20 +1,27 @@
-/*Universal Selector*/
+/*Universal Selector - Selects all elements at once*/
 *{
     color: teal;
 }
-/* Element Selector */
+/* Element Selector - selects a particular element*/
 p{
     color: brown;
 }
-/* Grouping Selector */
+/* Grouping Selector selects two or more elements by classes or ids*/
 .main,.main1{
     color: blue;
 }
-/* Classes Selector */
+/* Classes Selector selects elements by class*/
 .main2{
     color: green;
 }
-/* ID Selector */
+/* ID Selector selects elements by id*/
 #heading{
-    color: red;
+    color: red; 
+}
+/* !important tells which property should be applied if an element gets two properties*/
+span{
+    color: darkblue !important;
+}
+span{
+    color: darkmagenta;
 }
