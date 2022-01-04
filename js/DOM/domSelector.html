@@ -1,0 +1,69 @@
+<!-- --------------By ID--------------- -->
+<p id="master">i love javascript</p>
+
+ <script>
+const masterEl = document.getElementById('master')
+console.log(masterEl) //<p id="master">i love javascript</p> 
+ </script>
+
+ <!-- ---------BY CLASSNAME------------ -->
+ <p class="master2">i love javascript</p>
+ <p class="master2">i love react</p>
+ <h1 class="master2">i want a job</h1>
+
+ <button id="btn">click me</button>
+
+<script>
+
+const btn = document.getElementById('btn')
+ 
+ btn.addEventListener('click', function master(){
+     var master = document.getElementsByClassName("master2");
+     master[2].innerHTML = 'i need a job';
+ })
+
+</script>
+
+
+<!-- ----------------BY TAGNAME---------------- -->
+<p>VsCode</p>
+<p>Atom</p>
+<p>Sublime text</p>
+       <button id="btn">click me</button>
+      
+
+<script>
+
+const btn = document.getElementById('btn')
+       
+       btn.addEventListener('click', function master(){
+           let master = document.getElementsByTagName('p');
+           let masterEl = master[1].innerHTML = 'Code editors';
+           console.log(masterEl) //Code editors
+       })
+
+//<p>Atom</p> changes to <p>Code editors</p>
+</script>
+
+
+
+
+
+<!-- ------------------CSS SELECTORS----------------  -->
+
+<!-- .querySelector() -->
+<div id=master>i am a frontend developer</div>
+
+<script>
+const master = document.querySelector("#master") 
+</script>
+
+<!-- .querySelectorAll() -->
+<p class="master">React</p>
+<p class="master">Vue</p>
+<p class="master">Angular</p>
+
+<script>
+const master = document.querySelectorAll(".master") 
+console.log(master[1])  //<p class="master">Vue</p>
+</script>
