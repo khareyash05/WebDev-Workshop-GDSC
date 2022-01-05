@@ -1,0 +1,91 @@
+.flexbox {
+  /* display flex initializes a flexbox and row is default value */
+  display: flex;
+  width: 100%;
+  height: 100%;
+  /* Justify content aligns items horizontally */
+  /* justify content center will align the item in center horizontally */
+  justify-content: center;
+  /* Align item aligns elements vertically */
+  /* Align items center will align elements in center vertically  */
+  align-items: center;
+}
+div {
+  height: 50px;
+  width: 100px;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexbox1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* It displays elements as column */
+  flex-direction: column;
+}
+.flexbox2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* It displays elements as reverse in row */
+  flex-direction: row-reverse;
+  /* flex wrap property wraps the elements if size is reduced*/
+  flex-wrap: wrap;
+  /* space around will align items by giving equal margins to each element inside */
+  justify-content: space-around;
+}
+.flexbox3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* It displays elements as column in reverse order */
+    flex-direction: column-reverse;
+}
+.flexbox4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* space between gets first and last elements at start and at end and rest are given equal spacing */
+    justify-content: space-between;
+}
+.flexbox5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* flex start will align elements in starting of flex */
+  justify-content: flex-start;
+}
+.flexbox6 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* flex end will align elements in ending of flex */
+    justify-content: flex-end;
+}
+/* align items have also same property as justify content just it aligns them vertically in place of horizontally */
+#div1{
+    /* flex grow specifies the relative growing size of elements of a flex */
+    flex-grow: 1;
+    /* align-self: flex-start; */
+}
+#div2{
+    flex-grow: 1;
+}
+#div3{
+    flex-grow: 8;
+}
+#div4{
+    flex-grow: 1;
+}
+.flexbox7{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#div5{
+    /* flex shrink specifies how much an element will shrink */
+    flex-shrink: 6;
+}
