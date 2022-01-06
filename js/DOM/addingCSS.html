@@ -1,0 +1,29 @@
+<style>
+    body{
+        background-color: hotpink;
+        display: flex;
+        align-items: center;
+    }
+
+    .button{
+        background-color: blueviolet;
+        width: 200px;
+        border: none;
+        font-size: 2rem;
+        padding: 0.5rem;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+
+
+<button id="master">Click me</button>
+
+<script>
+const buttonEl = document.getElementById('master')
+buttonEl.addEventListener('click', addFunction)
+
+function addFunction(){
+ buttonEl.classList.add('button')
+}
+</script>
