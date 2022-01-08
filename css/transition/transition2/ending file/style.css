@@ -1,0 +1,31 @@
+div{
+    background:tomato;
+    color:white;
+    padding:20px;
+    text-align:center;
+    width:150px;
+    margin: auto;
+    }
+    #a{
+    opacity:0; /* here opacity is 0 so it won't be visible but will take space*/
+    transition:opacity 0.1s; /*it will take 0.1s to change opacity from 0 to 1 */
+    }
+    div:hover #a{
+    opacity:1; /* on hovering opacity will be changed to 1 */
+    }
+    #b{
+    opacity:0;
+    transition:opacity 0.2s;
+    transition-delay:0.1s;
+    }
+    div:hover #b{
+    opacity:1;
+    }
+    #c{
+    opacity:0;
+    transition:opacity 0.3s;
+    transition-delay:0.2s;
+    }
+    div:hover #c{
+    opacity:1;
+    }

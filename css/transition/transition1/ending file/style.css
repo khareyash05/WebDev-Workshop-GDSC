@@ -1,0 +1,12 @@
+.c{
+    background-color: tomato;
+    width: 100px;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+transition: width 2s , line-height 2s; /* here transition property width and height will take 2s to change  */
+}
+div:hover {
+    width:200px; /* ON HOVERING WIDTH WILL BE 200PX AND LINE-HEIGHT WILL CHANE TO 200PX; */
+    line-height: 200px;
+}
