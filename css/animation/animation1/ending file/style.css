@@ -1,0 +1,28 @@
+
+
+
+@keyframes example {   /*setting name of animation as example */
+    from{right:100%;} /* beginning position of arrow */
+    to{right:50px;  /* end position of arrow on completion */ 
+    }
+     
+    }
+    i.a{
+    font-size:70px;
+    position:absolute;
+    right:50px; /*final position of arrow after completion */
+    top:22px;
+    animation-name:example;
+    animation-duration:2s;   /* animation will complete in 2s */
+    animation-iteration-count:3;  /* animation will be completed 3 times */
+    animation-delay: 2s; /*animation will start after 2s */
+    z-index:0;
+    }
+    i.b{
+    font-size:100px;
+    color:red;
+    position:absolute;
+    right:0;
+    z-index:-1;
+    }
+    

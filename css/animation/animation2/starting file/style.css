@@ -1,0 +1,20 @@
+div{
+    background-color: powderblue;
+    width: 100px;
+    line-height:100px;
+    text-align: center;
+    position: relative;
+    left:0; 
+    animation-name: abc; /*setting animation name as abc */
+    animation-duration: 4s; /*setting animation duration as 4s */
+    animation-iteration-count: infinite; /* animation will repeat infinitely */
+    }
+@keyframes abc{
+    from{
+        left:0%; /*starts from position with left 0px */
+    }
+    to{
+        left: 50%; /* ends with position with left 50% of display space */
+
+    }
+}

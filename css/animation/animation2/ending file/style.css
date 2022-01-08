@@ -1,0 +1,32 @@
+div{
+    background-color: powderblue;
+    width: 100px;
+    line-height:100px;
+    text-align: center;
+    position: relative;
+    left:0;
+    animation-name: abc;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    }
+@keyframes abc{
+    from{
+        left:0%;
+    }
+    to{
+        left: 50%;
+
+    }
+}
+.a{
+    animation-direction: normal; /* works normally */
+}
+.b{
+    animation-direction: reverse; /* works in reverse direction */
+}
+.c{
+    animation-direction: alternate; /* first normal the reverse direction */
+}
+.d{
+    animation-direction: alternate-reverse; /* first reverse then normal position */
+}
