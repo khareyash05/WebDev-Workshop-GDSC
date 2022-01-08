@@ -1,0 +1,4 @@
+
+        div + h1{
+            color: red; /* the h1 element immediately after div will be red */
+        }
