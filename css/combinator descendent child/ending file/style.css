@@ -1,0 +1,5 @@
+
+        div h1{
+            color:red; /* here all those h1 element, that are inside div or inside some other element inside div, will be red */ 
+        }
+        

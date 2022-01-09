@@ -1,0 +1,9 @@
+p:first-child{
+    color:blue; /* all p elements which are first p element of an element like body,div will be blue */ 
+}
+p i:first-child{
+    color: rgb(255, 0, 212); /*in all p the first italic element will be pink */
+}
+p:first-child i{
+    font-size: 30px; /* font size of all the itaic elements of first p element will be 30px */ 
+}
