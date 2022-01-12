@@ -1,0 +1,23 @@
+img{
+    float:left;
+    width:200px;
+    height:200px;
+}
+h1{
+    text-align: center;
+}
+p{
+    padding:40px;
+}
+@media screen and (max-width:560px) /* the properties assigned inside this block will be
+ effective if screen width is less than equal to 560px */
+
+{
+    p{
+        clear:left; /* on decreasing the screen size less than 560px the paragraph will be shifted below the image */
+    }
+    img{
+        width:90%; /* the image width will be changed to 90% */
+    }
+    
+}
